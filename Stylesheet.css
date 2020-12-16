@@ -9,6 +9,7 @@ h1{
     font-size: 40px;
     text-align: center;
     
+    
 }
 
 h2{
@@ -26,9 +27,12 @@ h3{
         background-color: none;
     }
 
-    h1 span {
-        background-color: violet;
-    }
+h1 span {
+    background-color: violet;
+    border: 5px solid black;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
 
 #yellow {
     color:yellow;
@@ -36,4 +40,10 @@ h3{
 
 #links {
     text-align:center;
+}
+
+#CVText {
+    border-radius: 2rem;
+    border: 5px solid black;
+    padding : 0.5rem;
 }
