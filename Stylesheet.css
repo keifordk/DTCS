@@ -1,21 +1,22 @@
-﻿body
+﻿
+
+body
 {
     background-color: teal;
     font-family:Arial;
 }
 
-h1{
-
+h1 {
     font-size: 40px;
     text-align: center;
-    
-    
+    background-color: violet;
 }
 
 h2{
-    font-size: 28px;
-    color:orange;
-    text-decoration:underline
+    font-size: 34px;
+    color:darkred;
+    
+    
 }
 
 h3{
@@ -23,12 +24,14 @@ h3{
     font-style: italic;
 }
 
-    h2 span {
-        background-color: none;
-    }
+
+h2 span {
+    background-color: none;
+    vertical-align: top;
+}
 
 h1 span {
-    background-color: violet;
+    
     border: 5px solid black;
     border-radius: 2rem;
     padding: 0.5rem;
@@ -39,11 +42,77 @@ h1 span {
 }
 
 #links {
+
     text-align:center;
+    font-size:2rem;
+    color:white;
+    
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blueviolet;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 #CVText {
+
     border-radius: 2rem;
     border: 5px solid black;
     padding : 0.5rem;
+}
+
+#uniPic {
+    float:right;
+   
+}
+
+#linkDiv {
+
+    background: darkred; 
+    height: 3rem;
+}
+
+#inputBoxes {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.inBox {
+    font-size: 18pt;
+    height: 1.25rem;
+    width: 14rem;
+}
+
+img {
+    border-radius: 10%;
+}
+a {
+    text-decoration: none;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover{
+    transform: scale(1.1);
 }
