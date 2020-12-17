@@ -6,9 +6,15 @@
 
     <link rel="stylesheet" href="Stylesheet.css" />
 
+    <script src="webScript.js"></script>
+
+    
+    
     <title> Welcome! </title>
 
     <head>
+
+        
 
         <div id="linkDiv">
 
@@ -24,48 +30,151 @@
 
 
 
-        <body>
+    <body>
 
-            <h1>
+        <h1>
 
-                <marquee scrollamount="15">
+            <marquee scrollamount="15">
 
-                    &#x1F384; Contact Details &#x1F384;
+                &#x1F384; Contact Details &#x1F384;
 
-                </marquee>
+            </marquee>
 
 
-            </h1>
+        </h1>
 
-            <div id="inputBoxes">
+        <div id="keiBio">
 
-                <label for="fname">First Name:</label> <br />
-                <input type="text" id="fname" name="fname" class="inBox" /> <br />
+            <div class="keiContainer"> 
 
-                &nbsp; <br />
+                <img src="src/keiPic.jpg" id="keiPic">
 
-                <label for="sname">Surname:  </label> <br />
-                <input type="text" id="sname" name="sname" class="inBox" /> <br />
+                <div class="overlay" height ="500px" width ="420px">
 
-                &nbsp; <br />
+                    <div class="picText">
 
-                <label for="fname">Phone Number:</label> <br />
-                <input type="text" id="pNumber" name="pNumber" class="inBox" /> <br />
+                        Me In Amsterdam
 
-                &nbsp; <br />
+                    </div>
 
-                <label for="fname">Date of Birth:</label> <br />
-                <input type="date" id="dateOfBirth" name="dateOfBirth" class="inBox" /> <br />
-
-                &nbsp; <br />
-
+                </div>
             </div>
 
-           
-        </body>
+            <div class="keiDetails">
 
-        <foot>
+                <h2><span>Personal Details</span></h2>
+
+                <p>
+
+                    <b>Name :</b> Kei Ford-Kuramoto <br />
+
+                    &nbsp; <br />
+
+                    <b>Age :</b> 21 <br />
+
+                    &nbsp; <br />
+
+                    <b>Date Of Birth :</b> January 29th 1999 <br />
+
+                    &nbsp; <br />
+
+                    <b>Studying :</b> Games Software Engineering at Bournemouth University <br />
+
+                    &nbsp; <br />
+
+                    <b>Grew up in :</b> I was born in London and have lived there for 21 Years. <br />
+
+                    &nbsp; <br />
+
+                    <b>Favourite Colours :</b> Green and Black <br />
+
+                    &nbsp; <br />
+
+                    <b>Favourite Foods :</b> Ramen and Pizza <br />
+
+                    &nbsp; <br />
+
+                    <b>Favourite Games :</b> Ace Attorney, Pokémon, League of Legends (yes i know i hate myself) <br />
+
+                </p>
+
+                <h2><span>Contact Details</span></h2>
+
+                <p>
+
+                    <b>Personal Email Address :</b> kei@kei99.co.uk <br />
+
+                    &nbsp; <br />
+
+                    <b>University Email Address :</b> s5066834@bournemouth.ac.uk <br />
+
+                    &nbsp; <br />
+                     
+                    <b>Phone Number :</b> 07773299092 <br />
+
+                    &nbsp; <br />
+
+                </p>
+            </div>
+
+        </div>
+
+
+
+
+        <div id="inputBoxes">
+
+            <h2><span>Enter your details :</span></h2>
+
+            <label for="fName">First Name:</label> <br />
+            <input type="text" id="fName" name="fName" class="inBox" autocomplete="off" /> <br />
+
+            &nbsp; <br />
+
+            <label for="sName">Surname:  </label> <br />
+            <input type="text" id="sName" name="sName" class="inBox" autocomplete="off" /> <br />
+
+            &nbsp; <br />
+
+            <label for="gender">Gender</label> <br />
+            <select name="gender" id="gender" class="inBox" autocomplete="off">
+
+                <option value="" selected disabled hidden>Choose from list</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+
+            </select>
+
+            &nbsp; <br />
+            &nbsp; <br />
+
+            <label for="pNumber">Phone Number:</label> <br />
+            <input type="text" id="pNumber" name="pNumber" class="inBox" autocomplete="off" /> <br />
+
+            &nbsp; <br />
+
+            <label for="emailAddress">Email Address:</label> <br />
+            <input type="email" id="emailAddress" name="emailAddress" class="inBox" autocomplete="off" /> <br />
+
+            &nbsp; <br />
+
+            <label for="dateOfBirth">Date of Birth:</label> <br />
+            <input type="date" id="dateOfBirth" name="dateOfBirth" class="inBox" autocomplete="off" /> <br />
+
+            &nbsp; <br />
+
+            <button class="button" onclick="submit('src/magnum.mp3')">Submit</button> <br />
+
+          
+
+        </div>
+
+
+    </body>
+
+        <footer>
             &copy; 2020
-        </foot>
+        </footer>
 
 </html>
