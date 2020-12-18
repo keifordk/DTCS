@@ -41,6 +41,14 @@ h1 span {
     color:yellow;
 }
 
+#projects {
+
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+
 #links {
 
     text-align:center;
